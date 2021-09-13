@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive metro line map of Paris</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900|Dosis:400,500,600,700'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="sign">
+  <h1 class="line-name"><span class="line-type">M</span><span class="sign__line" data-line="m1">1</span> La Défense – Château de Vincennes</h1>
+  <ol class="line" data-line="m1">
+    <li class="stop" data-transfer>
+      <strong class="stop__name">La Défense</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-t">T</span>
+            <span class="stop__transfer stop__transfer--t" data-line="t2">2</span>
+        </div>
+        <div>
+            <span class="stop__transfer stop__transfer--type-rer">RER</span>
+            <span class="stop__transfer stop__transfer--rer" data-line="rerA">A</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Esplanade de La Défense</strong>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Pont de Neuilly</strong>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Les Sablons</strong>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Porte Maillot</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-rer">RER</span>
+            <span class="stop__transfer stop__transfer--rer" data-line="rerC">C</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Argentine</strong>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Charles de Gaulle Étoile</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m2">2</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m6">6</span>
+        </div>
+        <div>
+            <span class="stop__transfer stop__transfer--type-rer">RER</span>
+            <span class="stop__transfer stop__transfer--rer" data-line="rerA">A</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Georges V</strong>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Franklin D. Roosevelt</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m9">9</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Champs-Élysées-Clemenceau</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m13">13</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Concorde</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m8">8</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m12">12</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Tuileries</strong>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Palais Royal-Musée du Louvre</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m7">7</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Louvre-Rivoli</strong>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Châtelet</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m4">4</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m7">7</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m11">11</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m14">14</span>
+        </div>
+        <div>
+            <span class="stop__transfer stop__transfer--type-rer">RER</span>
+            <span class="stop__transfer stop__transfer--rer" data-line="rerA">A</span>
+            <span class="stop__transfer stop__transfer--rer" data-line="rerB">B</span>
+            <span class="stop__transfer stop__transfer--rer" data-line="rerD">D</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Hôtel de Ville</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m11">11</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Saint-Paul</strong>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Bastille</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m5">5</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m8">8</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Gare de Lyon</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m14">14</span>
+        </div>
+        <div>
+            <span class="stop__transfer stop__transfer--type-rer">RER</span>
+            <span class="stop__transfer stop__transfer--rer" data-line="rerA">A</span>
+            <span class="stop__transfer stop__transfer--rer" data-line="rerD">D</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Reuilly-Diderot</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m8">8</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Nation</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-m">M</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m2">2</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m6">6</span>
+            <span class="stop__transfer stop__transfer--m" data-line="m9">9</span>
+        </div>
+        <div>
+            <span class="stop__transfer stop__transfer--type-rer">RER</span>
+            <span class="stop__transfer stop__transfer--rer" data-line="rerA">A</span>
+        </div>
+      </div>
+    </li>
+    <li class="stop" data-transfer>
+      <strong class="stop__name">Porte de Vincennes</strong>
+      <div class="stop__transfers">
+        <div>
+            <span class="stop__transfer stop__transfer--type-t">T</span>
+            <span class="stop__transfer stop__transfer--t" data-line="t3a">3<sub>a</sub></span>
+            <span class="stop__transfer stop__transfer--t" data-line="t3b">3<sub>b</sub></span>
+        </div>
+      </div>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Saint-Mandé</strong>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Bérault</strong>
+    </li>
+    <li class="stop">
+      <strong class="stop__name">Château de Vincennes</strong>
+    </li>
+  </ol>
+</section>
+<!-- partial -->
+  
+</body>
+</html>
